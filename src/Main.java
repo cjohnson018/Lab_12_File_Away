@@ -61,14 +61,14 @@ public class Main
             }
             else
             {
-                System.out.println("Failed to choose a file to process");
+                System.out.println("Failed to choose a file to process!");
                 System.out.println("Run the program again!");
                 System.exit(0);
             }
         }
         catch (FileNotFoundException e)
         {
-            System.out.println("File not found!!!");
+            System.out.println("File not found!");
             e.printStackTrace();
         }
         catch (IOException e)
